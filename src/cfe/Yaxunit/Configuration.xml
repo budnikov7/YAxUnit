@@ -28,14 +28,27 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>5bbdbe75-cab0-4626-a418-d8e6c9d265b1</xr:ObjectId>
+				<xr:ObjectId>0eb6edb8-80d2-4695-83c3-d19cb90833b5</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:PropertyState>
 				<xr:Property>ManagedApplicationModule</xr:Property>
 				<xr:State>Extended</xr:State>
 			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>OrdinaryApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>CommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>MainSectionCommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>YAXUNIT</Name>
 			<Synonym>
 				<v8:item>
@@ -45,7 +58,6 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>ЮТ</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
@@ -196,7 +208,9 @@
 			<CommonModule>ЮТЧитательСлужебный</CommonModule>
 			<CommonModule>ЮТЧитательСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТЧитательСлужебныйКлиент</CommonModule>
-			<CommonModule>ОМ_ПервыйТест</CommonModule>
+			<CommonModule>ОМ_КонструкторыОбъектов</CommonModule>
+			<CommonModule>Док_ПриходТовара</CommonModule>
+			<CommonModule>Док_РасходТовара</CommonModule>
 			<DataProcessor>ЮТHTTPServiceRequest</DataProcessor>
 			<DataProcessor>ЮТHTTPОтвет</DataProcessor>
 			<DataProcessor>ЮТHTTPСервисЗапрос</DataProcessor>

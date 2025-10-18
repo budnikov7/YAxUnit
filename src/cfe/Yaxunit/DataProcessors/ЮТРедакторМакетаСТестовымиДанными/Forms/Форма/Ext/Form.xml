@@ -153,8 +153,8 @@
 							<TitleLocation>None</TitleLocation>
 							<ShowGrid>true</ShowGrid>
 							<ShowHeaders>true</ShowHeaders>
-							<ShowRowAndColumnNames>true</ShowRowAndColumnNames>
 							<Edit>true</Edit>
+							<ShowRowAndColumnNames>true</ShowRowAndColumnNames>
 							<ContextMenu name="МакетТабличногоДокументаКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="МакетТабличногоДокументаРасширеннаяПодсказка" id="15"/>
 						</SpreadSheetDocumentField>

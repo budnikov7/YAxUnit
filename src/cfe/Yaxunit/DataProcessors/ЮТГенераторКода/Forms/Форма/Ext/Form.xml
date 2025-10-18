@@ -140,13 +140,19 @@
 											<Button name="СписокЗначенийПоСсылкеДобавить" id="154">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокЗначенийПоСсылке.StandardCommand.Add</CommandName>
-												<ExtendedTooltip name="СписокЗначенийПоСсылкеДобавитьРасширеннаяПодсказка" id="155"/>
+												<ExtendedTooltip name="СписокЗначенийПоСсылкеДобавитьРасширеннаяПодсказка" id="155">
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
+												</ExtendedTooltip>
 											</Button>
 											<Button name="СписокЗначенийПоСсылкеУдалить" id="158">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.СписокЗначенийПоСсылке.StandardCommand.Delete</CommandName>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-												<ExtendedTooltip name="СписокЗначенийПоСсылкеУдалитьРасширеннаяПодсказка" id="159"/>
+												<ExtendedTooltip name="СписокЗначенийПоСсылкеУдалитьРасширеннаяПодсказка" id="159">
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
+												</ExtendedTooltip>
 											</Button>
 											<Button name="СписокЗначенийПоСсылкеСформироватьКодПоСписку" id="98">
 												<Type>CommandBarButton</Type>
@@ -402,14 +408,20 @@
 									<v8:content>Движения документа</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="СтраницаКодДвиженияДокументаРасширеннаяПодсказка" id="142"/>
+							<ExtendedTooltip name="СтраницаКодДвиженияДокументаРасширеннаяПодсказка" id="142">
+								<Visible>false</Visible>
+								<Enabled>false</Enabled>
+							</ExtendedTooltip>
 							<ChildItems>
 								<InputField name="Движения_Документ" id="143">
 									<DataPath>Движения_Документ</DataPath>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<ContextMenu name="Движения_ДокументКонтекстноеМеню" id="144"/>
-									<ExtendedTooltip name="Движения_ДокументРасширеннаяПодсказка" id="145"/>
+									<ExtendedTooltip name="Движения_ДокументРасширеннаяПодсказка" id="145">
+										<Visible>false</Visible>
+										<Enabled>false</Enabled>
+									</ExtendedTooltip>
 									<Events>
 										<Event name="OnChange">Движения_ДокументПриИзменении</Event>
 									</Events>
@@ -428,48 +440,72 @@
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.ИменаРегистров.StandardCommand.CheckAll</CommandName>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-												<ExtendedTooltip name="ИменаРегистровУстановитьФлажкиРасширеннаяПодсказка" id="186"/>
+												<ExtendedTooltip name="ИменаРегистровУстановитьФлажкиРасширеннаяПодсказка" id="186">
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
+												</ExtendedTooltip>
 											</Button>
 											<Button name="ИменаРегистровСнятьФлажки" id="189">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Item.ИменаРегистров.StandardCommand.UncheckAll</CommandName>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-												<ExtendedTooltip name="ИменаРегистровСнятьФлажкиРасширеннаяПодсказка" id="190"/>
+												<ExtendedTooltip name="ИменаРегистровСнятьФлажкиРасширеннаяПодсказка" id="190">
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
+												</ExtendedTooltip>
 											</Button>
 											<Button name="ИменаРегистровСформироватьКодДвижений" id="191">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СформироватьКодДвижений</CommandName>
-												<ExtendedTooltip name="ИменаРегистровСформироватьКодДвиженийРасширеннаяПодсказка" id="192"/>
+												<ExtendedTooltip name="ИменаРегистровСформироватьКодДвиженийРасширеннаяПодсказка" id="192">
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
+												</ExtendedTooltip>
 											</Button>
 										</ChildItems>
 									</AutoCommandBar>
-									<ExtendedTooltip name="ИменаРегистровРасширеннаяПодсказка" id="167"/>
+									<ExtendedTooltip name="ИменаРегистровРасширеннаяПодсказка" id="167">
+										<Visible>false</Visible>
+										<Enabled>false</Enabled>
+									</ExtendedTooltip>
 									<SearchStringAddition name="ИменаРегистровСтрокаПоиска" id="168">
+										<Visible>false</Visible>
 										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ИменаРегистров</Item>
 											<Type>SearchStringRepresentation</Type>
 										</AdditionSource>
 										<ContextMenu name="ИменаРегистровСтрокаПоискаКонтекстноеМеню" id="169"/>
-										<ExtendedTooltip name="ИменаРегистровСтрокаПоискаРасширеннаяПодсказка" id="170"/>
+										<ExtendedTooltip name="ИменаРегистровСтрокаПоискаРасширеннаяПодсказка" id="170">
+											<Visible>false</Visible>
+											<Enabled>false</Enabled>
+										</ExtendedTooltip>
 									</SearchStringAddition>
 									<ViewStatusAddition name="ИменаРегистровСостояниеПросмотра" id="174">
+										<Visible>false</Visible>
 										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ИменаРегистров</Item>
 											<Type>ViewStatusRepresentation</Type>
 										</AdditionSource>
 										<ContextMenu name="ИменаРегистровСостояниеПросмотраКонтекстноеМеню" id="175"/>
-										<ExtendedTooltip name="ИменаРегистровСостояниеПросмотраРасширеннаяПодсказка" id="176"/>
+										<ExtendedTooltip name="ИменаРегистровСостояниеПросмотраРасширеннаяПодсказка" id="176">
+											<Visible>false</Visible>
+											<Enabled>false</Enabled>
+										</ExtendedTooltip>
 									</ViewStatusAddition>
 									<SearchControlAddition name="ИменаРегистровУправлениеПоиском" id="171">
+										<Visible>false</Visible>
 										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ИменаРегистров</Item>
 											<Type>SearchControl</Type>
 										</AdditionSource>
 										<ContextMenu name="ИменаРегистровУправлениеПоискомКонтекстноеМеню" id="172"/>
-										<ExtendedTooltip name="ИменаРегистровУправлениеПоискомРасширеннаяПодсказка" id="173"/>
+										<ExtendedTooltip name="ИменаРегистровУправлениеПоискомРасширеннаяПодсказка" id="173">
+											<Visible>false</Visible>
+											<Enabled>false</Enabled>
+										</ExtendedTooltip>
 									</SearchControlAddition>
 									<ChildItems>
 										<ColumnGroup name="ИменаРегистровГруппаЗначение" id="183">
@@ -480,18 +516,27 @@
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
-											<ExtendedTooltip name="ИменаРегистровГруппаЗначениеРасширеннаяПодсказка" id="184"/>
+											<ExtendedTooltip name="ИменаРегистровГруппаЗначениеРасширеннаяПодсказка" id="184">
+												<Visible>false</Visible>
+												<Enabled>false</Enabled>
+											</ExtendedTooltip>
 											<ChildItems>
 												<CheckBoxField name="ИменаРегистровПометка" id="180">
 													<DataPath>ИменаРегистров.Check</DataPath>
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИменаРегистровПометкаКонтекстноеМеню" id="181"/>
-													<ExtendedTooltip name="ИменаРегистровПометкаРасширеннаяПодсказка" id="182"/>
+													<ExtendedTooltip name="ИменаРегистровПометкаРасширеннаяПодсказка" id="182">
+														<Visible>false</Visible>
+														<Enabled>false</Enabled>
+													</ExtendedTooltip>
 												</CheckBoxField>
 												<InputField name="ИменаРегистровЗначение" id="177">
 													<DataPath>ИменаРегистров.Value</DataPath>
 													<ContextMenu name="ИменаРегистровЗначениеКонтекстноеМеню" id="178"/>
-													<ExtendedTooltip name="ИменаРегистровЗначениеРасширеннаяПодсказка" id="179"/>
+													<ExtendedTooltip name="ИменаРегистровЗначениеРасширеннаяПодсказка" id="179">
+														<Visible>false</Visible>
+														<Enabled>false</Enabled>
+													</ExtendedTooltip>
 												</InputField>
 											</ChildItems>
 										</ColumnGroup>
@@ -906,7 +951,7 @@
 			</ToolTip>
 			<Picture>
 				<xr:Ref>StdPicture.Clear</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>Очистить</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
